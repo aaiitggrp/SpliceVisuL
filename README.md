@@ -42,12 +42,12 @@ There are readme files within the subdirectories with further explanations of th
 Extract the downloaded data 'Splice_junction_data.tgz' in the root directory
 
 2. Run the script main.py and choose from the given options to perform various tasks.
-	- Options:
-		1. Preprocess the training data by mapping nucleotides into integers and partitioning the training data into 90% train and 10% validation data. Train and validation data saved in hierarchial data format.
-		2. Train the proposed model with data generated in step 1.
-		3. Preprocess the test data by mapping nucleotides into integers and save in hierarchial data format.
-		4. Test the performance of the model trained in step 2 on test data generated in step 3. Results saved in performance.txt
-		5. Produces various visualization results on the test data. User can choose from a set of visualization techniques provided. User can also choose any model-weights file from 'checkpoint' directory. System selected best checkpoint file will choose the last model-weights file.
+- Options:
+		- Preprocess the training data by mapping nucleotides into integers and partitioning the training data into 90% train and 10% validation data. Train and validation data saved in hierarchial data format.
+		- Train the proposed model with data generated in step 1.
+		- Preprocess the test data by mapping nucleotides into integers and save in hierarchial data format.
+		- Test the performance of the model trained in step 2 on test data generated in step 3. Results saved in performance.txt
+		- Produces various visualization results on the test data. User can choose from a set of visualization techniques provided. User can also choose any model-weights file from 'checkpoint' directory. System selected best checkpoint file will choose the last model-weights file.
 		
 	
 
