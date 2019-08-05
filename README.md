@@ -19,17 +19,17 @@ The folders are organized into the following subdirectories:
 - `programs` - Contains code for all the operations like - data preprocessing, training & testing various RNN models, visualization of splicing features.
 
 	1. In directory programs/preprocessing:
-	- For creating training and validation dataset: python prepare_data_train_val.py
-	- For creating test dataset: python prepare_data_test.py
+		- For creating training and validation dataset: python prepare_data_train_val.py
+		- For creating test dataset: python prepare_data_test.py
 
 	2. In directory programs/model:
-	- Run the model: python lstm_bi_with_attention.py (Various other RNN models are also provided)
+		- Run the model: python lstm_bi_with_attention.py (Various other RNN models are also provided)
 
 	3. In directory programs/testing:
-	- For testing any model: python test_lstm.py (change appropriate model path in the file)
+		- For testing any model: python test_lstm.py (change appropriate model path in the file)
 
 	4. In directory programs/visualization:
-	- For visualizing splicing motifs: python visualizations.py (Move the model weights file from 'checkpoints' folder. A sample file 'lstm_bi_attention.hdf5' provided.)
+		- For visualizing splicing motifs: python visualizations.py (Move the model weights file from 'checkpoints' folder. A sample file 'lstm_bi_attention.hdf5' provided.)
 	
 - `visualizations` - All files related to visualization saved here.
 
