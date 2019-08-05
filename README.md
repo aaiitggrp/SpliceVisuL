@@ -26,10 +26,10 @@ The folders are organized into the following subdirectories:
 		- Run the model: python lstm_bi_with_attention.py (Various other RNN models are also provided)
 
 	3. In directory programs/testing:
-		- For testing any model: python test_lstm.py (change appropriate model path in the file)
+		- For testing any model: python test_lstm.py 
 
 	4. In directory programs/visualization:
-		- For visualizing splicing motifs: python visualizations.py (Move the model weights file from 'checkpoints' folder. A sample file 'lstm_bi_attention.hdf5' provided.)
+		- For visualizing splicing motifs: python visualizations.py (A sample model weights file 'lstm_bi_attention.hdf5' is provided.)
 	
 - `visualizations` - All files related to visualization saved here.
 
@@ -42,6 +42,14 @@ There are readme files within the subdirectories with further explanations of th
 Extract the downloaded data 'Splice_junction_data.tgz' in the root directory
 
 2. Run the script main.py and choose from the given options to perform various tasks.
+	- Options:
+		1. Preprocess the training data by mapping nucleotides into integers and partitioning the training data into 90% train and 10% validation data. Train and validation data saved in hierarchial data format.
+		2. Train the proposed model with data generated in step 1.
+		3. Preprocess the test data by mapping nucleotides into integers and save in hierarchial data format.
+		4. Test the performance of the model trained in step 2 on test data generated in step 3. Results saved in performance.txt
+		5. Produces various visualization results on the test data. User can choose from a set of visualization techniques provided. User can also choose any model-weights file from 'checkpoint' directory. System selected best checkpoint file will choose the last model-weights file.
+		
+	
 
 
 
