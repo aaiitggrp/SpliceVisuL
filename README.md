@@ -43,6 +43,7 @@ Extract the downloaded data 'Splice_junction_data.tgz' in the root directory
 
 2. Run the script main.py and choose from the given options to perform various tasks.
 - Options:
+		
 		- Preprocess the training data by mapping nucleotides into integers and partitioning the training data into 90% train and 10% validation data. Train and validation data saved in hierarchial data format.
 		
 		- Train the proposed model with data generated in step 1.
